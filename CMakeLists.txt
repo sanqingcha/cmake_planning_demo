@@ -11,5 +11,6 @@ set( CMAKE_CXX_STANDARD 17 )
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 set(Process_Dir ${PROJECT_SOURCE_DIR}/src/process)
 set(Pnc_Map_Dir ${PROJECT_SOURCE_DIR}/src/pnc_map)
+set(Show_Result_Dir ${PROJECT_SOURCE_DIR}/src/show_result)
 
 add_subdirectory(src)
