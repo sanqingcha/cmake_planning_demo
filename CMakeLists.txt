@@ -8,8 +8,8 @@ project(planning
 
 set( CMAKE_CXX_STANDARD 17 )
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
-set(Process_Dir ${CMKAE_SOURCE_DIR}/src/process)
-set(Pnc_Map_Dir ${CMKAE_SOURCE_DIR}/src/pnc_map)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
+set(Process_Dir ${PROJECT_SOURCE_DIR}/src/process)
+set(Pnc_Map_Dir ${PROJECT_SOURCE_DIR}/src/pnc_map)
 
 add_subdirectory(src)
